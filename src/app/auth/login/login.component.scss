@@ -1,0 +1,100 @@
+@import "./../../../../src/@flight/scss/fuse";
+
+.sign-in {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 320px;
+  height: 700px;
+  text-align: left;
+  &__header{
+    img,h1{
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  #sign-in {
+    margin-top: 30px;
+  }
+  form {
+    width: 100%;
+    text-align: left;
+
+    mat-form-field {
+      width: 100%;
+    }
+
+    mat-checkbox {
+      margin: 0;
+    }
+
+    .remember-forgot-password {
+      font-size: 13px;
+      margin-top: 8px;
+
+      .remember-me {
+        margin-bottom: 16px
+      }
+
+      .forgot-password {
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 16px
+      }
+    }
+
+    .submit-button {
+      width: 100%;
+      max-width: 220px;
+      margin: 16px auto 0 0;
+      padding: 5px 20px;
+      box-sizing: border-box;
+      display: block;
+      background: black;
+      color: white;
+      &:hover{
+        background: white;
+        color: black;
+      }
+    }
+  }
+  .card-content {
+    position: relative;
+    align-content: justify;
+    width: 350px;
+    height: 700px;
+    right: 70px;
+    top: 20px;
+    img{
+      height: 80px;
+    }
+  }
+  .btn {
+    text-transform: capitalize;
+    border-radius: 6px;
+    width: 80%;
+    padding-bottom: 45px;
+    color: white;
+  }
+  input{
+    width: 100%;
+  }
+
+  .sign-in-others {
+    button{
+      max-width: 220px;
+      width: 100%;
+      margin: 5px 0;
+      padding: 5px 20px;
+      background: #A8A9AD;
+      color: white;
+      box-sizing: border-box;
+      text-align: left;
+      i{
+         color: white;
+        font-family: "Font Awesome 5 Brands" !important;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,73 @@
+.auto-metrics {
+  margin-top: 10px;
+}
+.auto-metrics .heading {
+  color: white;
+}
+.auto-metrics .heading h1 {
+  font-size: 25px;
+  margin: 0;
+}
+.auto-metrics .heading h5 {
+  font-size: 15px;
+  margin: 0;
+}
+
+mat-card {
+  margin: 5px;
+  border-radius: 8px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  min-height: 160px;
+}
+mat-card h1, mat-card img {
+  font-size: 3vw;
+  margin: 0;
+}
+mat-card img {
+  width: 52%;
+}
+mat-card p {
+  text-transform: uppercase;
+  color: #00b0ff;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+}
+
+.end-of-shift {
+  margin-top: 10px;
+}
+.end-of-shift mat-icon {
+  float: right;
+  margin-left: 5px;
+}
+.end-of-shift .d-flex mat-icon {
+  color: #FFFFFF;
+  position: relative;
+  left: 30px;
+  background: #66bb6a;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+.end-of-shift .bottom {
+  margin: 50px;
+  font-size: 1vw;
+  position: relative;
+  top: 30px;
+}
+.end-of-shift .bottom .btn {
+  display: block;
+  width: auto;
+  margin: 5px 0 0 auto;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .card-panel p {
+    font-size: 1vw;
+  }
+}

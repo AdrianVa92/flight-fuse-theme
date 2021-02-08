@@ -1,0 +1,120 @@
+<app-header></app-header>
+<div class="content content__inner content__inner--with-background">
+  <div class="container">
+      <div class="today__headers">
+          <div class="row column-5 d-flex align-items-stretch px-12">
+              <div class="col-md-2 col-sm-6 col-6">
+                  <div class="today__headers--count text-center">
+                      <span>107</span>
+                      Staff
+                  </div>
+              </div>
+              <div class="col-md-2 col-sm-6 col-6">
+                  <div class="today__headers--count text-center">
+                      <span>3</span>
+                      Absent
+                  </div>
+              </div>
+              <div class="col-md-2 col-sm-6 col-6">
+                  <div class="today__headers--count text-center">
+                      <span>4</span>
+                      ON BREAK
+                  </div>
+              </div>
+              <div class="col-md-2 col-sm-6 col-6">
+                  <div class="today__headers--count text-center">
+                      <span>6</span>
+                      NOTIFICATION
+                  </div>
+              </div>
+              <div class="col-md-2 col-sm-6 col-6">
+                  <div class="today__headers--count text-center">
+                      <span><img src="assets/images/common/inner-header/team.svg" alt="Team" style="width: 100%; max-width: 65px;"></span>
+                      MANAGE TEAMS
+                  </div>
+              </div>
+          </div>
+          <div class="row px-12">
+              <div class="col-12 my-3">
+                  <div class="red px-12 py-12 my-12" role="alert">
+                      <div class="row d-flex align-items-center">
+                          <div class="col-sm-10">
+                              <p class="mt-0 mb-0">
+                                  IMPORTANT UPDATE: Please ensure you have read the “Corporate Health Guidelines” as they have recently been updated.
+                              </p>
+                          </div>
+                          <div class="col-sm-2">
+                              <button mat-stroked-button>VIEW</button>
+                              <button mat-stroked-button>DONE</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-8 px-12">
+                  <div class="today__content--panel py-20 px-20">
+                      <h2>Staff activity</h2>
+                      <div class="icons">
+                          <img src="assets/images/common/nav-icon.jpg" alt="navicon">
+                          <img src="assets/images/common/return-icon.jpg" alt="return">
+                      </div>
+                      <p><small>Real-time activity of all Maquire staff.</small></p>
+                      <table mat-table [dataSource]="dataSource" class="table activity-table w-100-p">
+
+                        <ng-container matColumnDef="status">
+                          <th mat-header-cell *matHeaderCellDef> <span class="status"></span> </th>
+                          <td mat-cell *matCellDef="let element"> <span class="status {{element.status}}"></span> </td>
+                        </ng-container>
+
+
+                        <ng-container matColumnDef="name">
+                          <th mat-header-cell *matHeaderCellDef> Name </th>
+                          <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+                        </ng-container>
+                        
+                        <ng-container matColumnDef="activity">
+                          <th mat-header-cell *matHeaderCellDef> CURRENT ACTIVITY </th>
+                          <td mat-cell *matCellDef="let element"> {{element.activity}} </td>
+                        </ng-container>
+
+                        <ng-container matColumnDef="location">
+                        <th mat-header-cell *matHeaderCellDef> LOCATION </th>
+                        <td mat-cell *matCellDef="let element" class="text-right"> {{element.location}} </td>
+                        </ng-container>
+
+                        <ng-container matColumnDef="arrow">
+                        <th mat-header-cell *matHeaderCellDef> </th>
+                        <td mat-cell *matCellDef="let element"> <mat-icon>{{element.arrow}}</mat-icon> </td>
+                        </ng-container>
+
+
+                        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                      </table>
+
+                  </div>
+              </div>
+              <div class="col-md-4 px-12">
+                  <div class="today__content--panel py-20 px-20">
+                      <h2>Cost comparision</h2>
+                      <div class="icons">
+                          <img src="assets/images/common/nav-icon.jpg" alt="navicon">
+                          <img src="assets/images/common/return-icon.jpg" alt="return">
+                      </div>
+                      <p><small>Remote team summary vs typical local resources.</small></p>
+                      <h4>Summary</h4>
+                      <div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
+                      <table class="table">
+                          <tr>
+                              <td scope="col">Total Cloudstaff Team Cost (145)</td>
+                              <td scope="col">AU$ 300,339</td>
+                          </tr>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<app-inner-footer></app-inner-footer>

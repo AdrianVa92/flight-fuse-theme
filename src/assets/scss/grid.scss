@@ -1,0 +1,228 @@
+/*flex*/
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+.flex-column-reverse{
+    flex-direction: column-reverse;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-stretch {
+    justify-content: stretch;
+}
+.justify-content-flex-start {
+  justify-content: flex-start;
+}
+.justify-content-flex-end {
+  justify-content: flex-end;
+}
+.align-items-space-between {
+  align-items: space-between;
+}
+
+.align-items-space-around {
+  align-items: space-around;
+}
+
+.align-items-space-evenly {
+  align-items: space-evenly;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-stretch {
+  align-items: stretch;
+}
+
+.align-items-flex-start {
+  align-items: flex-start;
+}
+
+.align-items-flex-end {
+  align-items: flex-end;
+}
+/*For Mobile Phones*/
+[class*="col-"] {
+  /*For Please Unquote for Mobile Responsive*/
+  width: 100% !important;
+  flex-basis: 100% !important;
+  padding: 0 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+$grid-columns: 12;
+
+@media screen and (min-width: 480px) {
+
+  @for $i from 0 through $grid-columns {
+    .col-#{$i} {
+      width: percentage($i / $grid-columns) !important;
+      flex-basis: percentage($i / $grid-columns) !important;
+    }
+  }
+
+  .column-5 {
+    [class*=col-2] {
+      width: 20% !important;
+      flex-basis: 20% !important;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+
+  @for $i from 0 through $grid-columns {
+    .col-xs-#{$i} {
+      width: percentage($i / $grid-columns) !important;
+      flex-basis: percentage($i / $grid-columns) !important;
+    }
+  }
+
+  .column-5 {
+    [class*=col-xs-2] {
+      width: 20% !important;
+      flex-basis: 20% !important;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  @for $i from 0 through $grid-columns {
+    .col-sm-#{$i} {
+      width: percentage($i / $grid-columns) !important;
+      flex-basis: percentage($i / $grid-columns) !important;
+    }
+  }
+
+  .column-5 {
+    [class*=col-sm-2] {
+      width: 20% !important;
+      flex-basis: 20% !important;
+    }
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+
+  @for $i from 0 through $grid-columns {
+    .col-md-#{$i} {
+      width: percentage($i / $grid-columns) !important;
+      flex-basis: percentage($i / $grid-columns) !important;
+    }
+  }
+
+  .column-5 {
+    [class*=col-md-2] {
+      width: 20% !important;
+      flex-basis: 20% !important;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  @for $i from 0 through $grid-columns {
+    .col-lg-#{$i} {
+      width: percentage($i / $grid-columns) !important;
+      flex-basis: percentage($i / $grid-columns) !important;
+    }
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  @for $i from 0 through $grid-columns {
+    .col-xl-#{$i} {
+      width: percentage($i / $grid-columns) !important;
+      flex-basis: percentage($i / $grid-columns) !important;
+    }
+  }
+
+  .column-5 {
+    [class*=col-xl-2] {
+      width: 20% !important;
+      flex-basis: 20% !important;
+    }
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+
+  @for $order from 1 through 12 {
+    .order-xs-#{$order} {
+      order: #{$order}
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  @for $order from 1 through 12 {
+    .order-sm-#{$order} {
+      order: #{$order}
+    }
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+
+  @for $order from 1 through 12 {
+    .order-md-#{$order} {
+      order: #{$order}
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  @for $order from 1 through 12 {
+    .order-lg-#{$order} {
+      order: #{$order}
+    }
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  @for $order from 1 through 12 {
+    .order-xl-#{$order} {
+      order: #{$order}
+    }
+  }
+}
+

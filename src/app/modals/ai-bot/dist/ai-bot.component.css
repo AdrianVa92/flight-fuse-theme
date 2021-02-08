@@ -1,0 +1,78 @@
+.ai-bot {
+  height: 100%;
+}
+
+.description {
+  color: white;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  align-content: center;
+}
+.description p {
+  font-size: 15px;
+  position: relative;
+}
+.description h1 {
+  position: relative;
+}
+.description img {
+  margin-left: 120px;
+  position: relative;
+  width: 30%;
+}
+
+.features {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.features h2 {
+  margin-top: 15px;
+  padding: 0;
+  font-size: 18px;
+}
+.features button {
+  color: white;
+  border-radius: 6px;
+  margin-left: 15px;
+  width: 180px;
+  height: 50px;
+  border: none;
+}
+.features .box {
+  width: 28%;
+  margin-left: 60px;
+  border: #e0e0e0;
+  border-style: solid;
+  border-radius: 6px;
+}
+.features .box .material-icons {
+  color: gray;
+  font-size: 2vw;
+}
+.features .close {
+  float: right;
+  bottom: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1500px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .features button {
+    margin-left: 15px;
+    width: 150px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .features button {
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,76 @@
+<mat-horizontal-stepper>
+  <mat-step>
+    <div class="row">
+      <div class = "col-md-6">
+         <div class="description justify-align">
+           <h1>Add-On Services </h1>
+           <p>
+               Cloudstaff offers many services for staff and <br>
+               customers to drive effieciency and improve <br>
+               productivity
+            </p>
+            <p>
+                Select the Add-On Category to continue.
+            </p>
+          </div>
+        </div>
+        <div class = "col-md-6">
+          <i class="close material-icons" mat-dialog-close> close </i>
+          <i class="close material-icons"> menu </i> <br> <br>
+          <div class="services">
+            <button  mat-button mat-dialog-close>  Software & Services </button>
+            <button  mat-button matStepperNext>  Hardware </button>
+            <button  mat-button mat-dialog-close>  Connectivity </button>
+            <button  mat-button mat-dialog-close>  Office Furniture </button>
+            <button  mat-button mat-dialog-close>  Office Supplies </button>
+            <button  mat-button mat-dialog-close>  Training </button>
+            <button  mat-button mat-dialog-close>  Engagement </button>
+         </div>
+       </div>
+     </div>
+  </mat-step>
+  <mat-step>
+    <div class="row">
+        <div class = "col-md-6">
+           <div class="item justify-align">
+             <h1>Apple Macbook Pro </h1>
+             <img src = "assets/images/common/manage-add-ons/items/macbook.png" alt= "macbook" style = "width: 90%;" >
+            </div>
+          </div>
+          <div class = "col-md-6">
+            <i class="close material-icons" mat-dialog-close> close </i>
+            <i class="close material-icons"> menu </i> <br> <br>
+            <mat-form-field appearance="fill">
+                <mat-label>Screen</mat-label>
+                <mat-select>
+                  <mat-option value= '16'>16"</mat-option>
+                  <mat-option value= '32'>32</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Processor</mat-label>
+                <mat-select>
+                  <mat-option value= 'core'>3.88 GHZ Quad Core</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Memory</mat-label>
+                <mat-select>
+                  <mat-option value= '32 Gb'>32 Gb</mat-option>
+                  <mat-option value= '64 Gb'>64 Gb</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>GPU</mat-label>
+                <mat-select>
+                  <mat-option value= 'geforce'>Geforce 520 Mobile</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <div class="row">
+                 <button class="continue" mat-button mat-dialog-close>  Continue </button>
+                 <button class="back" mat-button matStepperPrevious>  Back </button>
+            </div>
+         </div>
+       </div>
+  </mat-step>
+</mat-horizontal-stepper>

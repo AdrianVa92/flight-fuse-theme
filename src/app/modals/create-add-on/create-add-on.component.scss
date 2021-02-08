@@ -1,0 +1,94 @@
+.description {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.description p {
+  font-size: 15px;
+  color: #616161;
+}
+
+.description h1 {
+  font-size: 30px;
+}
+
+ .services button {
+  background-color: #c8e3ee;
+  width: 90%;
+  padding: 5px;
+  display: block;
+  margin-top: 15px;
+  text-align: left;
+  font-size: 20px;
+  border-radius: 6px;
+  font-weight: normal;
+  padding-left: 30px;
+}
+
+.services button:hover {
+  background-color: #29b6f6;
+  color: white
+}
+
+i {
+  margin-left: 2px;
+  float: right;
+  cursor: pointer;
+}
+
+.item {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.continue {
+  background-color: #29b6f6 ;
+  width: 30%;
+  border-radius: 6px;
+  color: white;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.back {
+  background-color: black ;
+  width: 30%;
+  border-radius: 6px;
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .services button {
+    font-size: 15px;
+  }
+  .continue {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .continue {
+    font-size: 10px;
+  }
+}
+
+
+::ng-deep {
+ .mat-horizontal-stepper-header-container {
+   display: none !important;
+ }
+
+ .mat-form-field {
+  width: 100%;
+  margin-top: 20px;
+ }
+}
+
+mat-label{
+  margin-top: 20px;
+}
+
+
+

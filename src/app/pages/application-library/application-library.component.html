@@ -1,0 +1,46 @@
+<app-header></app-header>
+
+<div class="page-layout simple tabbed">
+  <mat-tab-group dynamicHeight="true">
+
+    <mat-tab label="Grid">
+      <div class="content content__inner content__inner--with-background">
+        <div class="container">
+          <div class="d-flex row">
+            <div class="col-md-10 col-12 order-md-2">
+              <div class="p-24">
+                <h5>SALES ADMIN</h5>
+                <app-application-library-grid></app-application-library-grid>
+              </div>
+            </div>
+            <div class="sidebar col-md-2 col-12 order-md-1">
+              <app-sidebar></app-sidebar>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </mat-tab>
+
+    <mat-tab label="List">
+      <div class="content content__inner">
+        <div class="container">
+          <div class="d-flex row">
+            <div class="col-md-10 col-12 order-md-2">
+              <div class="p-24">
+                <h5>SALES ADMIN</h5>
+                <app-application-library-list></app-application-library-list>
+              </div>
+            </div>
+            <div class="sidebar col-md-2 col-12 order-md-1">
+              <app-sidebar></app-sidebar>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </mat-tab>
+  </mat-tab-group>
+
+</div>
+<app-inner-footer></app-inner-footer>

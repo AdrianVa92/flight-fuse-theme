@@ -1,0 +1,68 @@
+<app-header></app-header>
+
+<div class="content content__inner">
+  <div class="container">
+    <div class="d-flex row">
+      <div class="col-md-10 col-12 order-md-2">
+        <h2>Hardware</h2>
+        <table mat-table [dataSource]="dataSource" class="table hardware-table">
+          <ng-container matColumnDef="image">
+            <th mat-header-cell *matHeaderCellDef></th>
+            <td scope="col" class="align-right" mat-cell *matCellDef="let hardware"> <img
+                src="{{ hardware.image || 'unit' }}">
+            </td>
+          </ng-container>
+
+          <ng-container matColumnDef="unit">
+            <th mat-header-cell *matHeaderCellDef>Type</th>
+            <td scope="col" class="align-middle" mat-cell *matCellDef="let hardware"> {{ hardware.unit }} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="assigned_to">
+            <th mat-header-cell *matHeaderCellDef> Assigned To </th>
+            <td scope="col" mat-cell class="align-middle" *matCellDef="let hardware"> {{ hardware.assigned_to }} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="team">
+            <th mat-header-cell *matHeaderCellDef> Team </th>
+            <td scope="col" class="align-middle" mat-cell *matCellDef="let hardware"> {{ hardware.team }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="location">
+            <th mat-header-cell *matHeaderCellDef> Location </th>
+            <td scope="col" class="align-middle" mat-cell *matCellDef="let hardware"> {{ hardware.location }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="type">
+            <th mat-header-cell *matHeaderCellDef> Type </th>
+            <td scope="col" class="align-middle" mat-cell *matCellDef="let hardware"> {{ hardware.type }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="status">
+            <th mat-header-cell *matHeaderCellDef> Status </th>
+            <td scope="col" class="align-middle" mat-cell *matCellDef="let hardware"> {{ hardware.status }}</td>
+          </ng-container>
+
+          <ng-container matColumnDef="amount">
+            <th mat-header-cell *matHeaderCellDef> Amount </th>
+            <td scope="col" class="align-middle" mat-cell *matCellDef="let hardware"> {{ hardware.amount }}</td>
+          </ng-container>
+
+
+          <ng-container matColumnDef="icons">
+            <th mat-header-cell *matHeaderCellDef> </th>
+            <td scope="col" class="text-center align-middle" mat-cell *matCellDef="let hardware"> <i
+                class="fa fa-bars"></i> <i class="fa fa-gear"></i> </td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+          <tr mat-row *matRowDef="let row; columns: columnsToDisplay;"></tr>
+        </table>
+      </div>
+      <div class="sidebar col-md-2 col-12 order-md-1">
+        <app-sidebar></app-sidebar>
+      </div>
+    </div>
+  </div>
+
+<app-inner-footer></app-inner-footer>

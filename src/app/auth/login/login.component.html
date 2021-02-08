@@ -1,0 +1,56 @@
+<div class="sign-in">
+  <div class="content-card dark-text">
+    <div class="sign-in__header">
+      <img src="assets/images/common/flight-deck-logo.png" />
+      <h1>FlightDeck sign in</h1>
+    </div>
+    
+    <p id="sign-in"><b>Sign in with your work email</b></p>
+    <form name="loginForm" [formGroup]="loginForm" novalidate>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email">
+        <mat-error *ngIf="loginForm.get('email').hasError('required')">
+          Email is required
+        </mat-error>
+        <mat-error *ngIf="!loginForm.get('email').hasError('required') &&
+                                loginForm.get('email').hasError('email')">
+          Please enter a valid email address
+        </mat-error>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput type="password" formControlName="password">
+        <mat-error>
+          Password is required
+        </mat-error>
+      </mat-form-field>
+
+      <div class="remember-forgot-password" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="space-between center">
+        <mat-checkbox class="remember-me" aria-label="Remember Me">
+          Remember Me
+        </mat-checkbox>
+
+        <a class="forgot-password" [routerLink]="'/auth/forgot-password'">
+          Forgot Password?
+        </a>
+      </div>
+
+      <button mat-raised-button class="submit-button">
+        Sign in with email
+      </button>
+
+    </form>
+    <p>or</p>
+    <div class="sign-in-others">
+      <button mat-raised-button>
+        <i class="fa fa-apple"> </i> Sign in with Apple </button><br />
+      <button mat-raised-button>
+        <i class="fa fa-facebook"> </i> Sign in with Facebook</button><br />
+      <button mat-raised-button>
+        <i class="fa fa-google"> </i> Sign in with Google</button>
+    </div>
+  </div>
+</div>

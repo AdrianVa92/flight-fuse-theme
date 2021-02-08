@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(100deg, #E0FFFF, #3F86CE);
+}
+
+.auth-container {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 100%;
+  max-width: 700px;
+  min-height: 700px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0;
+}
+
+.cloudstaff img {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .card {
+    height: 700px;
+    width: 500px;
+    background-color: white;
+  }
+
+  .cloudstaff {
+    width: 450px;
+    height: 200px;
+  }
+
+  .cloudstaff img {
+    margin-left: 90px;
+    max-width: auto;
+  }
+}

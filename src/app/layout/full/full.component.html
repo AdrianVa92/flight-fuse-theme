@@ -1,0 +1,12 @@
+<router-outlet *ngIf="router.indexOf('/auth') > -1; else sidenav"></router-outlet>
+<ng-template #sidenav>
+  <mat-sidenav-container>
+    <router-outlet></router-outlet>
+    <button mat-raised-button color="warn" class="btn-floating" (click)="sidenav.open()">
+      <mat-icon>keyboard_arrow_left</mat-icon>
+    </button>
+    <mat-sidenav #sidenav mode="over" position="end">
+      <app-sidenav></app-sidenav>
+    </mat-sidenav>
+  </mat-sidenav-container>
+</ng-template>

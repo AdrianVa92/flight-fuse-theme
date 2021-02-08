@@ -1,0 +1,125 @@
+.sign-in {
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  height: 700px;
+  text-align: left;
+}
+.sign-in__header img, .sign-in__header h1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.sign-in #sign-in {
+  margin-top: 50px;
+}
+.sign-in form {
+  width: 100%;
+  text-align: left;
+}
+.sign-in form mat-form-field {
+  width: 100%;
+}
+.sign-in form mat-checkbox {
+  margin: 0;
+}
+.sign-in form .remember-forgot-password {
+  font-size: 13px;
+  margin-top: 8px;
+}
+.sign-in form .remember-forgot-password .remember-me {
+  margin-bottom: 16px;
+}
+.sign-in form .remember-forgot-password .forgot-password {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.sign-in form .submit-button {
+  width: 100%;
+  max-width: 220px;
+  margin: 16px auto 0 0;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  display: block;
+  background: black;
+  color: white;
+}
+.sign-in form .submit-button:hover {
+  background: white;
+  color: black;
+}
+.sign-in .card-content {
+  position: relative;
+  align-content: justify;
+  width: 350px;
+  height: 700px;
+  right: 70px;
+  top: 20px;
+}
+.sign-in .card-content img {
+  height: 80px;
+}
+.sign-in .btn {
+  text-transform: capitalize;
+  border-radius: 6px;
+  width: 80%;
+  padding-bottom: 45px;
+  color: white;
+}
+.sign-in input {
+  width: 100%;
+}
+.sign-in .sign-in-others button {
+  max-width: 220px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.sign-in .sign-in-others button i {
+  font-family: "Font Awesome 5 Brands" !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .sign-in {
+    width: 400px;
+    height: 500px;
+  }
+  .sign-in h1 {
+    font-size: 25px;
+    margin-left: 30px;
+    top: 0;
+  }
+  .sign-in img {
+    max-width: 60px;
+    max-height: 55px;
+    margin-left: 65px;
+    position: absolute;
+    top: 0;
+  }
+  .sign-in .sign-in-options {
+    left: 100px;
+    position: relative;
+  }
+  .sign-in .sign-in-options .btn {
+    width: 60%;
+    padding: 0;
+    margin-top: 10px;
+  }
+  .sign-in .sign-in-options p {
+    margin-top: 5px;
+  }
+  .sign-in .sign-in-options .sign-in-others {
+    margin-top: 30px;
+    left: 255px;
+    bottom: 125px;
+  }
+  .sign-in .sign-in-options .sign-in-others a {
+    margin: 8px;
+    right: 10px;
+  }
+  .sign-in .sign-in-options .sign-in-others i {
+    font-size: 20px;
+  }
+}
