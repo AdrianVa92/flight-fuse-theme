@@ -10,9 +10,9 @@ exports.NavbarVerticalStyle2Module = void 0;
 var core_1 = require("@angular/core");
 var button_1 = require("@angular/material/button");
 var icon_1 = require("@angular/material/icon");
-var components_1 = require("projects/flight-fuse-theme/src/@flight/components");
-var shared_module_1 = require("projects/flight-fuse-theme/src/@flight/shared.module");
-var style_2_component_1 = require("projects/flight-fuse-theme/src/app/layout/components/navbar/vertical/style-2/style-2.component");
+var components_1 = require("projects/deck/src/@flight/components");
+var shared_module_1 = require("projects/deck/src/@flight/shared.module");
+var style_2_component_1 = require("projects/deck/src/app/layout/components/navbar/vertical/style-2/style-2.component");
 var NavbarVerticalStyle2Module = /** @class */ (function () {
     function NavbarVerticalStyle2Module() {
     }

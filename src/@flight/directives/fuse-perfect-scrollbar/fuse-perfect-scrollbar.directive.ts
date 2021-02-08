@@ -5,8 +5,8 @@ import { fromEvent, Subject } from 'rxjs';
 import { debounceTime, filter, takeUntil } from 'rxjs/operators';
 import PerfectScrollbar from 'perfect-scrollbar';
 import * as _ from 'lodash';
-import { FusePerfectScrollbarGeometry, FusePerfectScrollbarPosition } from 'projects/flight-fuse-theme/src/@flight/directives/fuse-perfect-scrollbar/fuse-perfect-scrollbar.interfaces';
-import { FuseConfigService } from 'projects/flight-fuse-theme/src/@flight/services/config.service';
+import { FusePerfectScrollbarGeometry, FusePerfectScrollbarPosition } from 'projects/deck/src/@flight/directives/fuse-perfect-scrollbar/fuse-perfect-scrollbar.interfaces';
+import { FuseConfigService } from 'projects/deck/src/@flight/services/config.service';
 
 @Directive({
     selector: '[fusePerfectScrollbar]'

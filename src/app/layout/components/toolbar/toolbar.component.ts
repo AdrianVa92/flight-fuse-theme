@@ -4,8 +4,8 @@ import { takeUntil } from 'rxjs/operators';
 import { TranslateService } from '@ngx-translate/core';
 import * as _ from 'lodash';
 
-import { FuseConfigService } from 'projects/flight-fuse-theme/src/@flight/services/config.service';
-import { FuseSidebarService } from 'projects/flight-fuse-theme/src/@flight/components/sidebar/sidebar.service';
+import { FuseConfigService } from 'projects/deck/src/@flight/services/config.service';
+import { FuseSidebarService } from 'projects/deck/src/@flight/components/sidebar/sidebar.service';
 
 // import { navigation } from 'projects/theme-fuse/src/app/theme/navigation/navigation';
 

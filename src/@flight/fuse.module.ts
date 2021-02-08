@@ -1,6 +1,6 @@
 import { ModuleWithProviders, NgModule, Optional, SkipSelf } from '@angular/core';
 
-import { FUSE_CONFIG } from 'projects/flight-fuse-theme/src/@flight/services/config.service';
+import { FUSE_CONFIG } from 'projects/deck/src/@flight/services/config.service';
 
 @NgModule()
 export class FuseModule

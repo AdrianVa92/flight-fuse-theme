@@ -3,10 +3,10 @@ import { NavigationEnd, Router } from '@angular/router';
 import { Subject } from 'rxjs';
 import { delay, filter, take, takeUntil } from 'rxjs/operators';
 
-import { FuseConfigService } from 'projects/flight-fuse-theme/src/@flight/services/config.service';
-import { FuseNavigationService } from 'projects/flight-fuse-theme/src/@flight/components/navigation/navigation.service';
-import { FusePerfectScrollbarDirective } from 'projects/flight-fuse-theme/src/@flight/directives/fuse-perfect-scrollbar/fuse-perfect-scrollbar.directive';
-import { FuseSidebarService } from 'projects/flight-fuse-theme/src/@flight/components/sidebar/sidebar.service';
+import { FuseConfigService } from 'projects/deck/src/@flight/services/config.service';
+import { FuseNavigationService } from 'projects/deck/src/@flight/components/navigation/navigation.service';
+import { FusePerfectScrollbarDirective } from 'projects/deck/src/@flight/directives/fuse-perfect-scrollbar/fuse-perfect-scrollbar.directive';
+import { FuseSidebarService } from 'projects/deck/src/@flight/components/sidebar/sidebar.service';
 
 @Component({
     selector     : 'navbar-vertical-style-2',

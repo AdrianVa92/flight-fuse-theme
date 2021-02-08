@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { FuseSharedModule } from 'projects/flight-fuse-theme/src/@flight/shared.module';
+import { FuseSharedModule } from 'projects/deck/src/@flight/shared.module';
 
-import { ContentComponent } from 'projects/flight-fuse-theme/src/app/layout/components/content/content.component';
+import { ContentComponent } from 'projects/deck/src/app/layout/components/content/content.component';
 
 @NgModule({
     declarations: [

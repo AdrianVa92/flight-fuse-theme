@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
-import { FuseConfigService } from 'projects/flight-fuse-theme/src/@flight/services/config.service';
+import { FuseConfigService } from 'projects/deck/src/@flight/services/config.service';
 // import { navigation } from 'projects/theme-fuse/src/app/theme/navigation/navigation';
 
 @Component({

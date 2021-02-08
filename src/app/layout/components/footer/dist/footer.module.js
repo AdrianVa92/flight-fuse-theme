@@ -12,8 +12,8 @@ var router_1 = require("@angular/router");
 var button_1 = require("@angular/material/button");
 var icon_1 = require("@angular/material/icon");
 var toolbar_1 = require("@angular/material/toolbar");
-var shared_module_1 = require("projects/flight-fuse-theme/src/@flight/shared.module");
-var footer_component_1 = require("projects/flight-fuse-theme/src/app/layout/components/footer/footer.component");
+var shared_module_1 = require("projects/deck/src/@flight/shared.module");
+var footer_component_1 = require("projects/deck/src/app/layout/components/footer/footer.component");
 var FooterModule = /** @class */ (function () {
     function FooterModule() {
     }

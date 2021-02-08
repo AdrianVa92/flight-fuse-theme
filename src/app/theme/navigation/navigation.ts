@@ -1,4 +1,4 @@
-import { FuseNavigation } from 'projects/flight-fuse-theme/src/@flight/types';
+import { FuseNavigation } from 'projects/deck/src/@flight/types';
 
 export const navigation: FuseNavigation[] = [
     {

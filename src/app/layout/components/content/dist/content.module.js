@@ -9,8 +9,8 @@ exports.__esModule = true;
 exports.ContentModule = void 0;
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
-var shared_module_1 = require("projects/flight-fuse-theme/src/@flight/shared.module");
-var content_component_1 = require("projects/flight-fuse-theme/src/app/layout/components/content/content.component");
+var shared_module_1 = require("projects/deck/src/@flight/shared.module");
+var content_component_1 = require("projects/deck/src/app/layout/components/content/content.component");
 var ContentModule = /** @class */ (function () {
     function ContentModule() {
     }

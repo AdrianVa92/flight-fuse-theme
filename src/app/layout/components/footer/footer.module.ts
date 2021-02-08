@@ -4,9 +4,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
-import { FuseSharedModule } from 'projects/flight-fuse-theme/src/@flight/shared.module';
+import { FuseSharedModule } from 'projects/deck/src/@flight/shared.module';
 
-import { FooterComponent } from 'projects/flight-fuse-theme/src/app/layout/components/footer/footer.component';
+import { FooterComponent } from 'projects/deck/src/app/layout/components/footer/footer.component';
 
 @NgModule({
     declarations: [
@@ -27,5 +27,5 @@ import { FooterComponent } from 'projects/flight-fuse-theme/src/app/layout/compo
 })
 export class FooterModule
 {
-    
+
 }

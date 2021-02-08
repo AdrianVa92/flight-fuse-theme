@@ -11,8 +11,8 @@ var core_1 = require("@angular/core");
 var divider_1 = require("@angular/material/divider");
 var list_1 = require("@angular/material/list");
 var slide_toggle_1 = require("@angular/material/slide-toggle");
-var shared_module_1 = require("projects/flight-fuse-theme/src/@flight/shared.module");
-var quick_panel_component_1 = require("projects/flight-fuse-theme/src/app/layout/components/quick-panel/quick-panel.component");
+var shared_module_1 = require("projects/deck/src/@flight/shared.module");
+var quick_panel_component_1 = require("projects/deck/src/app/layout/components/quick-panel/quick-panel.component");
 var QuickPanelModule = /** @class */ (function () {
     function QuickPanelModule() {
     }

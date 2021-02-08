@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 
-import { FuseConfirmDialogComponent } from 'projects/flight-fuse-theme/src/@flight/components/confirm-dialog/confirm-dialog.component';
+import { FuseConfirmDialogComponent } from 'projects/deck/src/@flight/components/confirm-dialog/confirm-dialog.component';
 
 @NgModule({
     declarations: [

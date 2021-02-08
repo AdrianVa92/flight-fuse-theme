@@ -3,9 +3,9 @@ import { NavigationEnd, Router } from '@angular/router';
 import { merge, Subject } from 'rxjs';
 import { filter, takeUntil } from 'rxjs/operators';
 
-import { FuseNavigationItem } from 'projects/flight-fuse-theme/src/@flight/types';
-import { fuseAnimations } from 'projects/flight-fuse-theme/src/@flight/animations';
-import { FuseNavigationService } from 'projects/flight-fuse-theme/src/@flight/components/navigation/navigation.service';
+import { FuseNavigationItem } from 'projects/deck/src/@flight/types';
+import { fuseAnimations } from 'projects/deck/src/@flight/animations';
+import { FuseNavigationService } from 'projects/deck/src/@flight/components/navigation/navigation.service';
 
 @Component({
     selector   : 'fuse-nav-vertical-collapsable',

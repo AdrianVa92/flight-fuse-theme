@@ -4,8 +4,8 @@ import { CookieService } from 'ngx-cookie-service';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
-import { FuseMatchMediaService } from 'projects/flight-fuse-theme/src/@flight/services/match-media.service';
-import { FuseNavigationService } from 'projects/flight-fuse-theme/src/@flight/components/navigation/navigation.service';
+import { FuseMatchMediaService } from 'projects/deck/src/@flight/services/match-media.service';
+import { FuseNavigationService } from 'projects/deck/src/@flight/components/navigation/navigation.service';
 
 @Component({
     selector   : 'fuse-shortcuts',

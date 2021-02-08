@@ -8,11 +8,11 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 exports.__esModule = true;
 exports.NavbarModule = void 0;
 var core_1 = require("@angular/core");
-var shared_module_1 = require("projects/flight-fuse-theme/src/@flight/shared.module");
-var navbar_component_1 = require("projects/flight-fuse-theme/src/app/layout/components/navbar/navbar.component");
-var style_1_module_1 = require("projects/flight-fuse-theme/src/app/layout/components/navbar/horizontal/style-1/style-1.module");
-var style_1_module_2 = require("projects/flight-fuse-theme/src/app/layout/components/navbar/vertical/style-1/style-1.module");
-var style_2_module_1 = require("projects/flight-fuse-theme/src/app/layout/components/navbar/vertical/style-2/style-2.module");
+var shared_module_1 = require("projects/deck/src/@flight/shared.module");
+var navbar_component_1 = require("projects/deck/src/app/layout/components/navbar/navbar.component");
+var style_1_module_1 = require("projects/deck/src/app/layout/components/navbar/horizontal/style-1/style-1.module");
+var style_1_module_2 = require("projects/deck/src/app/layout/components/navbar/vertical/style-1/style-1.module");
+var style_2_module_1 = require("projects/deck/src/app/layout/components/navbar/vertical/style-2/style-2.module");
 var NavbarModule = /** @class */ (function () {
     function NavbarModule() {
     }

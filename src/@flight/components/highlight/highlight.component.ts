@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import * as Prism from 'prismjs/prism';
-import 'projects/flight-fuse-theme/src/@flight/components/highlight/prism-languages';
+import 'projects/deck/src/@flight/components/highlight/prism-languages';
 
 @Component({
     selector : 'fuse-highlight',

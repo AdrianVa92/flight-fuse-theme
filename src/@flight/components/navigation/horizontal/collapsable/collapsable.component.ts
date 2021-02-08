@@ -2,8 +2,8 @@ import { Component, HostBinding, HostListener, Input, OnDestroy, OnInit } from '
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
-import { fuseAnimations } from 'projects/flight-fuse-theme/src/@flight/animations';
-import { FuseConfigService } from 'projects/flight-fuse-theme/src/@flight/services/config.service';
+import { fuseAnimations } from 'projects/deck/src/@flight/animations';
+import { FuseConfigService } from 'projects/deck/src/@flight/services/config.service';
 
 @Component({
     selector   : 'fuse-nav-horizontal-collapsable',

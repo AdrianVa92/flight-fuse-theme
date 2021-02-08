@@ -78,8 +78,8 @@ $typography: mat-typography-config(
 // -----------------------------------------------------------------------------------------------------
 
 // Import app and page component themes here to enable theming for them
-@import "projects/flight-fuse-theme/src/app/layout/components/chat-panel/chat-panel.theme";
-@import "projects/flight-fuse-theme/src/app/layout/components/toolbar/toolbar.theme";
+@import "projects/deck/src/app/layout/components/chat-panel/chat-panel.theme";
+@import "projects/deck/src/app/layout/components/toolbar/toolbar.theme";
 
 // Define a mixin for easier access
 @mixin components-theme($theme) {

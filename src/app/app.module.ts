@@ -8,13 +8,13 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { TranslateModule } from '@ngx-translate/core';
 
-import { FuseModule } from 'projects/flight-fuse-theme/src/@flight/fuse.module';
-import { FuseSharedModule } from 'projects/flight-fuse-theme/src/@flight/shared.module';
-import { FuseProgressBarModule, FuseSidebarModule, FuseThemeOptionsModule } from 'projects/flight-fuse-theme/src/@flight/components';
+import { FuseModule } from 'projects/deck/src/@flight/fuse.module';
+import { FuseSharedModule } from 'projects/deck/src/@flight/shared.module';
+import { FuseProgressBarModule, FuseSidebarModule, FuseThemeOptionsModule } from 'projects/deck/src/@flight/components';
 
 import { fuseConfig } from './theme/fuse-config';
 
-import { LayoutModule } from 'projects/flight-fuse-theme/src/app/layout/layout.module';
+import { LayoutModule } from 'projects/deck/src/app/layout/layout.module';
 import { HeaderComponent } from './shared/header/header.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { InnerFooterComponent } from './shared/inner-footer/inner-footer.component';
@@ -82,7 +82,7 @@ import { CreateAddOnComponent } from './modals/create-add-on/create-add-on.compo
     MatButtonModule,
     MatIconModule,
     FlexLayoutModule,
-    
+
     // Fuse modules
     FuseModule.forRoot(fuseConfig),
     FuseProgressBarModule,

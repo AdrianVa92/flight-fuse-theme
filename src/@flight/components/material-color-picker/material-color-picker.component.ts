@@ -1,7 +1,7 @@
 import { Component, EventEmitter, forwardRef, Input, Output, ViewEncapsulation } from '@angular/core';
 
-import { fuseAnimations } from 'projects/flight-fuse-theme/src/@flight/animations';
-import { MatColors } from 'projects/flight-fuse-theme/src/@flight/mat-colors';
+import { fuseAnimations } from 'projects/deck/src/@flight/animations';
+import { MatColors } from 'projects/deck/src/@flight/mat-colors';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 
 export const FUSE_MATERIAL_COLOR_PICKER_VALUE_ACCESSOR: any = {

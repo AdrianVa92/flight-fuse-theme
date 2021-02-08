@@ -2,7 +2,7 @@ import { Component, EventEmitter, OnDestroy, OnInit, Output } from '@angular/cor
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
-import { FuseConfigService } from 'projects/flight-fuse-theme/src/@flight/services/config.service';
+import { FuseConfigService } from 'projects/deck/src/@flight/services/config.service';
 
 @Component({
     selector   : 'fuse-search-bar',

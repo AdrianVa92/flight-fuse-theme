@@ -2,9 +2,9 @@ import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
 import { Subject } from 'rxjs';
 import { filter, takeUntil } from 'rxjs/operators';
 
-import { FuseConfigService } from 'projects/flight-fuse-theme/src/@flight/services/config.service';
-import { FuseNavigationService } from 'projects/flight-fuse-theme/src/@flight/components/navigation/navigation.service';
-import { FuseSidebarService } from 'projects/flight-fuse-theme/src/@flight/components/sidebar/sidebar.service';
+import { FuseConfigService } from 'projects/deck/src/@flight/services/config.service';
+import { FuseNavigationService } from 'projects/deck/src/@flight/components/navigation/navigation.service';
+import { FuseSidebarService } from 'projects/deck/src/@flight/components/sidebar/sidebar.service';
 
 @Component({
     selector     : 'navbar-horizontal-style-1',

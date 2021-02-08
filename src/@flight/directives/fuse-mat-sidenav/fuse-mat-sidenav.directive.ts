@@ -4,8 +4,8 @@ import { MediaObserver } from '@angular/flex-layout';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
-import { FuseMatchMediaService } from 'projects/flight-fuse-theme/src/@flight/services/match-media.service';
-import { FuseMatSidenavHelperService } from 'projects/flight-fuse-theme/src/@flight/directives/fuse-mat-sidenav/fuse-mat-sidenav.service';
+import { FuseMatchMediaService } from 'projects/deck/src/@flight/services/match-media.service';
+import { FuseMatSidenavHelperService } from 'projects/deck/src/@flight/directives/fuse-mat-sidenav/fuse-mat-sidenav.service';
 
 @Directive({
     selector: '[fuseMatSidenavHelper]'

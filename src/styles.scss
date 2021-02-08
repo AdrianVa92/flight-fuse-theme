@@ -1,12 +1,12 @@
 // Import Fuse core library
-@import "projects/flight-fuse-theme/src/@flight/scss/core";
+@import "projects/deck/src/@flight/scss/core";
 
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 
 // Import app.theme.scss
 @import "app/app.theme";
 
-@import "projects/flight-fuse-theme/src/assets/scss/grid";
+@import "projects/deck/src/assets/scss/grid";
 //Variables
 $primary-color: #2b56ad;
 

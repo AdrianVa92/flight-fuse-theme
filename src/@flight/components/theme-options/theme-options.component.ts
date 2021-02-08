@@ -4,10 +4,10 @@ import { DOCUMENT } from '@angular/common';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
-import { fuseAnimations } from 'projects/flight-fuse-theme/src/@flight/animations';
-import { FuseConfigService } from 'projects/flight-fuse-theme/src/@flight/services/config.service';
-import { FuseNavigationService } from 'projects/flight-fuse-theme/src/@flight/components/navigation/navigation.service';
-import { FuseSidebarService } from 'projects/flight-fuse-theme/src/@flight/components/sidebar/sidebar.service';
+import { fuseAnimations } from 'projects/deck/src/@flight/animations';
+import { FuseConfigService } from 'projects/deck/src/@flight/services/config.service';
+import { FuseNavigationService } from 'projects/deck/src/@flight/components/navigation/navigation.service';
+import { FuseSidebarService } from 'projects/deck/src/@flight/components/sidebar/sidebar.service';
 
 @Component({
     selector     : 'fuse-theme-options',

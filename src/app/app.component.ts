@@ -5,11 +5,11 @@ import { TranslateService } from '@ngx-translate/core';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
-import { FuseConfigService } from 'projects/flight-fuse-theme/src/@flight/services/config.service';
-import { FuseNavigationService } from 'projects/flight-fuse-theme/src/@flight/components/navigation/navigation.service';
-import { FuseSidebarService } from 'projects/flight-fuse-theme/src/@flight/components/sidebar/sidebar.service';
-import { FuseSplashScreenService } from 'projects/flight-fuse-theme/src/@flight/services/splash-screen.service';
-import { FuseTranslationLoaderService } from 'projects/flight-fuse-theme/src/@flight/services/translation-loader.service';
+import { FuseConfigService } from 'projects/deck/src/@flight/services/config.service';
+import { FuseNavigationService } from 'projects/deck/src/@flight/components/navigation/navigation.service';
+import { FuseSidebarService } from 'projects/deck/src/@flight/components/sidebar/sidebar.service';
+import { FuseSplashScreenService } from 'projects/deck/src/@flight/services/splash-screen.service';
+import { FuseTranslationLoaderService } from 'projects/deck/src/@flight/services/translation-loader.service';
 
 import { navigation } from './theme/navigation/navigation';
 import { locale as navigationEnglish } from './theme/navigation/i18n/en';

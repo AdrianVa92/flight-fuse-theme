@@ -1,4 +1,4 @@
-import { FuseConfig } from 'projects/flight-fuse-theme/src/@flight/types';
+import { FuseConfig } from 'projects/deck/src/@flight/types';
 
 /**
  * Default Fuse Configuration

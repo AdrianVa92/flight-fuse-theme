@@ -6,9 +6,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatTooltipModule } from '@angular/material/tooltip';
 
-import { FusePipesModule } from 'projects/flight-fuse-theme/src/@flight/pipes/pipes.module';
+import { FusePipesModule } from 'projects/deck/src/@flight/pipes/pipes.module';
 
-import { FuseMaterialColorPickerComponent } from 'projects/flight-fuse-theme/src/@flight/components/material-color-picker/material-color-picker.component';
+import { FuseMaterialColorPickerComponent } from 'projects/deck/src/@flight/components/material-color-picker/material-color-picker.component';
 
 @NgModule({
     declarations: [

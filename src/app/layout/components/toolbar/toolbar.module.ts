@@ -5,10 +5,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
-import { FuseSearchBarModule, FuseShortcutsModule } from 'projects/flight-fuse-theme/src/@flight/components';
-import { FuseSharedModule } from 'projects/flight-fuse-theme/src/@flight/shared.module';
+import { FuseSearchBarModule, FuseShortcutsModule } from 'projects/deck/src/@flight/components';
+import { FuseSharedModule } from 'projects/deck/src/@flight/shared.module';
 
-import { ToolbarComponent } from 'projects/flight-fuse-theme/src/app/layout/components/toolbar/toolbar.component';
+import { ToolbarComponent } from 'projects/deck/src/app/layout/components/toolbar/toolbar.component';
 
 @NgModule({
     declarations: [

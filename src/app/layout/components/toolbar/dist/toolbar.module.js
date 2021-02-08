@@ -13,9 +13,9 @@ var button_1 = require("@angular/material/button");
 var icon_1 = require("@angular/material/icon");
 var menu_1 = require("@angular/material/menu");
 var toolbar_1 = require("@angular/material/toolbar");
-var components_1 = require("projects/flight-fuse-theme/src/@flight/components");
-var shared_module_1 = require("projects/flight-fuse-theme/src/@flight/shared.module");
-var toolbar_component_1 = require("projects/flight-fuse-theme/src/app/layout/components/toolbar/toolbar.component");
+var components_1 = require("projects/deck/src/@flight/components");
+var shared_module_1 = require("projects/deck/src/@flight/shared.module");
+var toolbar_component_1 = require("projects/deck/src/app/layout/components/toolbar/toolbar.component");
 var ToolbarModule = /** @class */ (function () {
     function ToolbarModule() {
     }

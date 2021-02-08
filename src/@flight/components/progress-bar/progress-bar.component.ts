@@ -2,7 +2,7 @@ import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
-import { FuseProgressBarService } from 'projects/flight-fuse-theme/src/@flight/components/progress-bar/progress-bar.service';
+import { FuseProgressBarService } from 'projects/deck/src/@flight/components/progress-bar/progress-bar.service';
 
 @Component({
     selector     : 'fuse-progress-bar',

@@ -1,10 +1,10 @@
-@import "projects/flight-fuse-theme/src/@flight/components/countdown/countdown.theme";
-@import "projects/flight-fuse-theme/src/@flight/components/material-color-picker/material-color-picker.theme";
-@import "projects/flight-fuse-theme/src/@flight/components/search-bar/search-bar.theme";
-@import "projects/flight-fuse-theme/src/@flight/components/shortcuts/shortcuts.theme";
-@import "projects/flight-fuse-theme/src/@flight/components/sidebar/sidebar.theme";
-@import "projects/flight-fuse-theme/src/@flight/components/theme-options/theme-options.theme";
-@import "projects/flight-fuse-theme/src/@flight/components/widget/widget.theme";
+@import "projects/deck/src/@flight/components/countdown/countdown.theme";
+@import "projects/deck/src/@flight/components/material-color-picker/material-color-picker.theme";
+@import "projects/deck/src/@flight/components/search-bar/search-bar.theme";
+@import "projects/deck/src/@flight/components/shortcuts/shortcuts.theme";
+@import "projects/deck/src/@flight/components/sidebar/sidebar.theme";
+@import "projects/deck/src/@flight/components/theme-options/theme-options.theme";
+@import "projects/deck/src/@flight/components/widget/widget.theme";
 
 @mixin fuse-core-theme($theme) {
 

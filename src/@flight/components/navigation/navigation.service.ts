@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable, Subject } from 'rxjs';
 import * as _ from 'lodash';
 
-import { FuseNavigationItem } from 'projects/flight-fuse-theme/src/@flight/types';
+import { FuseNavigationItem } from 'projects/deck/src/@flight/types';
 
 @Injectable({
     providedIn: 'root'

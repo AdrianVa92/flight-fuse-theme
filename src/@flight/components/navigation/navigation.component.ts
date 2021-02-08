@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input, OnInit, V
 import { merge, Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 
-import { FuseNavigationService } from 'projects/flight-fuse-theme/src/@flight/components/navigation/navigation.service';
+import { FuseNavigationService } from 'projects/deck/src/@flight/components/navigation/navigation.service';
 
 @Component({
     selector       : 'fuse-navigation',

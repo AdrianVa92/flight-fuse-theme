@@ -9,14 +9,14 @@ exports.__esModule = true;
 exports.VerticalLayout2Module = void 0;
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
-var components_1 = require("projects/flight-fuse-theme/src/@flight/components");
-var shared_module_1 = require("projects/flight-fuse-theme/src/@flight/shared.module");
-var content_module_1 = require("projects/flight-fuse-theme/src/app/layout/components/content/content.module");
-var footer_module_1 = require("projects/flight-fuse-theme/src/app/layout/components/footer/footer.module");
-var navbar_module_1 = require("projects/flight-fuse-theme/src/app/layout/components/navbar/navbar.module");
-var quick_panel_module_1 = require("projects/flight-fuse-theme/src/app/layout/components/quick-panel/quick-panel.module");
-var toolbar_module_1 = require("projects/flight-fuse-theme/src/app/layout/components/toolbar/toolbar.module");
-var layout_2_component_1 = require("projects/flight-fuse-theme/src/app/layout/vertical/layout-2/layout-2.component");
+var components_1 = require("projects/deck/src/@flight/components");
+var shared_module_1 = require("projects/deck/src/@flight/shared.module");
+var content_module_1 = require("projects/deck/src/app/layout/components/content/content.module");
+var footer_module_1 = require("projects/deck/src/app/layout/components/footer/footer.module");
+var navbar_module_1 = require("projects/deck/src/app/layout/components/navbar/navbar.module");
+var quick_panel_module_1 = require("projects/deck/src/app/layout/components/quick-panel/quick-panel.module");
+var toolbar_module_1 = require("projects/deck/src/app/layout/components/toolbar/toolbar.module");
+var layout_2_component_1 = require("projects/deck/src/app/layout/vertical/layout-2/layout-2.component");
 var VerticalLayout2Module = /** @class */ (function () {
     function VerticalLayout2Module() {
     }
